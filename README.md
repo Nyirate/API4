@@ -22,7 +22,7 @@ git clone https://github.com/Nyirate/API4.git
 
 # BDD
 
-It is an application of searching cinema places,for a user to search he/she has to sign up or log in
+It is an application of searching cinema places,for a user to search he/she has to sign up or log in and if we rotate the phone the view won't change
 
 # Project Sample
 
