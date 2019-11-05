@@ -3,7 +3,7 @@ by Emma NYIRATE
 
 # Project Description
 
-This week project is about implementing skills we learnt in this week,in my project the user will be required to sign in if he/she has an account and to sign up if not,the data will be kept in the firebase.
+Week 4 project we are implementing skills we learnt in this week,we have to use animations or camera or gestures,we also deal with the landscape.
 
 # Setup/Installation Requirements
 
