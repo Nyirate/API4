@@ -9,8 +9,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.api1.R;
@@ -22,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button mWatch;
     private EditText editLocation;
+    private TextView mCine;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         mWatch = (Button) findViewById(R.id.watch);
         editLocation = (EditText) findViewById(R.id.edit);
+        mCine = (TextView) findViewById(R.id.cine);
+
+
+
+        Animation animation= AnimationUtils.loadAnimation(MainActivity.this,R.anim.bounce);
+
+        mCine.startAnimation(animation);
         mWatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

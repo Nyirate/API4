@@ -21,6 +21,7 @@
         android:layout_marginTop="30dp"
         android:text="CINEPLEX"
         android:textSize="40dp"
+        android:id="@+id/cine"
         android:textColor="@color/colorAccent"
         app:fontFamily="@font/biorhyme_extrabold"
         app:layout_constraintBottom_toBottomOf="parent"
